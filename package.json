@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A javascript node.js implementation for the logic behind a game of tic tac toe",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Joe Maidman",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  }
+}
