@@ -1,0 +1,5 @@
+[Game|Properties;playerOne: Player;playerTwo: Player;currentPlayer: Player;board: Board;isPlaying: Bool;winner: Player;|Public Interface;new(playerOne=new Player('X')&#65292;playerTwo=new Player('O'));takeTurn(row:Integer&#65292;column:Integer);|Private functions;_switchPlayer();_sendMessage(message:String);],
+[Board|Properties;cells: array&#65339;Cell&#65341;;magicNumbers: array&#65339;Integer&#65341;|Public Interface;new();updateCell(row:Integer&#65292;column:Integer);checkWinCondition(symbol);|Private functions;_evaluate(symbol)]
+[Cell|Properties;player: Player;x: integer;y: integer;magicvalue: integer|Public Interface;new(x:Integer&#65292;y:Integer&#65292;magicValue:Integer);take();isTaken()],
+[Player|Properties;symbol: String|Public Interface;new(symbol:String)],
+[Game]<-[Player],[Cell]->[Board],[Board]->[Game]
