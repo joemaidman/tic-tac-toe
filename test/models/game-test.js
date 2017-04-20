@@ -60,17 +60,10 @@ describe('Game', function() {
 
       it('should call #board.updateCell with x and y coordinates', function(){
         var boardUpdateCellSpy = sinon.spy(game.board, 'updateCell');
+        var switchPlayerSpy = sinon.spy(game, '_switchPlayer');
         game.takeTurn(0,0);
         expect(boardUpdateCellSpy).to.have.been.calledWith(0,0);
-        expect(boardUpdateCellSpy).to.have.been.calledOnce;
-      })
-
-    });
-
-    describe('._switchPlayer', function(){
-
-      it('should switch the current player', function(){
-        game._switchPlayer();
+        expect(switchPlayerSpy).to.have.been.calledOnce;
         expect(game.currentPlayer).to.equal(playerTwo);
       })
 
