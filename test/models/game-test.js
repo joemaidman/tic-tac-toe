@@ -1,7 +1,3 @@
-var assert = require('assert');
-var expect = require('chai').expect;
-var sinon = require('sinon');
-
 var Game = require('../../src/models/game.js');
 
 describe('Game', function() {
@@ -15,4 +11,9 @@ describe('Game', function() {
   it('exists', function() {
     expect(game).to.exist;
   });
+
+  it('has a playerOne', function(){
+
+  });
+  
 });

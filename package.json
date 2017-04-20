@@ -4,13 +4,15 @@
   "description": "A javascript node.js implementation for the logic behind a game of tic tac toe",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "istanbul cover --report lcov --report json --report text --report html _mocha -- -r ./test/testConfig.js test/models/*-test.js"
   },
   "author": "Joe Maidman",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
+    "istanbul": "^1.0.0-alpha.2",
     "mocha": "^3.2.0",
+    "rewire": "^2.5.2",
     "sinon": "^2.1.0"
   }
 }

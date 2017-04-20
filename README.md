@@ -1,4 +1,4 @@
-# Tic Tac Toe Tech Test
+# Tic Tac Toe Tech Test [![Build Status](https://travis-ci.org/joemaidman/tic-tac-toe.svg?branch=master)](https://travis-ci.org/joemaidman/tic-tac-toe) [![Code Climate GPA](https://codeclimate.com/github/joemaidman/tic-tac-toe/badges/gpa.svg)](https://codeclimate.com/github/joemaidman/tic-tac-toe) [![Code Climate Coverage](https://codeclimate.com/github/joemaidman/tic-tac-toe/badges/coverage.svg)](https://codeclimate.com/github/joemaidman/tic-tac-toe)
 This project implements the logic behind a game of tic tac toe with javascript and Node.js.
 
 ```
@@ -88,10 +88,12 @@ I want to receive an encouraging message when I lose
 
 ## Technologies
 - javascript
-- [node.js](https://nodejs.org/en/)
-- [Mocha](https://mochajs.org/)
-- [Chai](http://chaijs.com/)
-- [Sinon](http://sinonjs.org/)
+- [node.js](https://nodejs.org/en/) framework
+- [Mocha](https://mochajs.org/) testing framework
+- [Chai](http://chaijs.com/) assertion library
+- [Sinon](http://sinonjs.org/) test doubles, mocks & stubs
+- [rewire](https://github.com/jhnns/rewire) mock injection (monkey patching) for tests
+- [Istanbul](https://github.com/gotwarlost/istanbul#readme) test coverage
 
 ## Principles, patterns and behaviours
 - [Module pattern](https://en.wikipedia.org/wiki/Module_pattern)
