@@ -1,5 +1,5 @@
 # Tic Tac Toe Tech Test
-This project implements the logic behind a game of tic tac toe with javascript and Node.js. Users are able to `Withdraw` and Deposit amounts from their Account as well as view a list of transactions. The application interface is served via the node REPL using the command line interface.
+This project implements the logic behind a game of tic tac toe with javascript and Node.js.
 
 ```
 # # # # # # # # # # # # # # # # # # # # #
