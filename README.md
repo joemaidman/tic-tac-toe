@@ -92,6 +92,7 @@ I want to receive an encouraging message when I lose
 - [Mocha](https://mochajs.org/) testing framework
 - [Chai](http://chaijs.com/) assertion library
 - [Sinon](http://sinonjs.org/) test doubles, mocks & stubs
+- [Sinon-Chai](https://github.com/domenic/sinon-chai) Chai style assertions for Sinon
 - [rewire](https://github.com/jhnns/rewire) mock injection (monkey patching) for tests
 - [Istanbul](https://github.com/gotwarlost/istanbul#readme) test coverage
 
