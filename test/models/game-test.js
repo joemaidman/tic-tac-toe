@@ -1,6 +1,4 @@
 var Game = rewire('../src/models/game.js');
-// var Board = rewire("../../src/board.js");
-// var Player = rewire("../../src/player.js");
 
 describe('Game', function() {
   var game;
@@ -45,7 +43,7 @@ describe('Game', function() {
   });
 
   it('has a #board', function(){
-
+    expect(game.board).to.exist;
   });
 
 });

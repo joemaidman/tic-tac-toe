@@ -6,7 +6,6 @@ function Game(playerOne, playerTwo){
   this.currentPlayer = this.playerOne;
   this.playing = true;
   this.board = new Board();
-  this.board.testFunc();
 }
 
 Game.prototype = {
